@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Charite - Help The Poor | Donate</title>
+    <link rel=icon href="icons/favicon.png" sizes="20x20" type="image/png"> <!--title icon-->
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
+    <link rel="stylesheet" href="donate.css">
+
+</head>
+
+<body>
+    <!-- navbar start -->
+
+    <div class="top">
+        <ul class="top-left">
+            <li><span style="color: rgb(205, 54, 12);">Hi</span>, Good Afternoon Dude! |</li>
+            <li><img class="loc-icon" src="icons/location.svg" alt="" style="filter: invert(100);">Bengaluru, India 560001</li>
+            <!--Add location icon here-->
+        </ul>
+        <ul class="top-right">
+            <span class="follow">Follow Us - </span>
+            <li class="social-area">
+                <img class="fav-icon" src="icons/facebook.svg" alt="">
+                <img class="fav-icon" src="icons/twitter.svg" alt="">
+                <img class="fav-icon" src="icons/instagram.svg" alt="">
+                <img class="fav-icon" src="icons/linkedin.svg" alt="">
+            </li>
+        </ul>
+    </div>
+
+    <nav>
+        <div class="left"><img class="align-center" src="icons/logo.png" alt="img"></div>
+        <div class="middle">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Causes</a></li>
+                <li><a href="index.html">Features</a></li>
+                <li><a href="index.html">Stories</a></li>
+                <li><a href="index.html">Volunteer</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <a class="btn" href="donate.html">Donate Now</a>
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- page banner start -->
+    <div class="page-banner">
+        <div class="donate-container">
+            <div class="page-title justify-center flex">
+                <h2>Donate Now</h2>
+            </div>
+            <div class="page-home justify-center flex">
+                <ul>
+                    <li><a href="index.html">Home /</a></li>
+                    <li>/ Donate Now</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- page banner end -->
+
+    <!-- Donation area start -->
+    <div class="donation-area flex">
+        <div class="container">
+            <div class="donation-form">
+                <form action="#" class="volunteer-form">
+                    <div class="row">
+                        <div class="form-len-1">
+                            <h5>How Mouch Would You Like To Donate ?</h5>
+                            <div class="custom-radio-price">
+                                <div class="radio-item">
+                                    <input type="radio" name="donationPrice" id="price100" checked>
+                                    <label for="price100">₹ 1000</label>
+                                </div>
+                                <div class="radio-item">
+                                    <input type="radio" name="donationPrice" id="price200">
+                                    <label for="price200">₹ 2000</label>
+                                </div>
+                                <div class="radio-item">
+                                    <input type="radio" name="donationPrice" id="price300">
+                                    <label for="price300">₹ 3000</label>
+                                </div>
+                                <div class="radio-item">
+                                    <input type="radio" name="donationPrice" id="price400">
+                                    <label for="price400">₹ 4000</label>
+                                </div>
+                                <div class="radio-item">
+                                    <input type="radio" name="donationPrice" id="priceAmount">
+                                    <label for="priceAmount">Enter Custom Amount</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-len-1">
+                            <h5>Personal Info</h5>
+                        </div>
+                        <div class="col-sm-6 ">
+                            <div class="form-group">
+                                <label for="fname">First Name</label>
+                                <input type="text" id="fname" name="fname" class="form-control" value=""
+                                    placeholder="Your First Name" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="lname">Last Name</label>
+                                <input type="text" id="lname" name="lname" class="form-control" value=""
+                                    placeholder="Your Last Name" required>
+                            </div>
+                        </div>
+                        <div class="form-len-1">
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" class="form-control" value=""
+                                    placeholder="Your Email Address" required>
+                            </div>
+                        </div>
+                        <div class="form-len-1">
+                            <h5>Payment Method</h5>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="card_number">Card Number</label>
+                                <input type="text" id="card_number" name="card_number" class="form-control" value=""
+                                    placeholder="Card Number" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="cardholderName">Cardholder Name</label>
+                                <input type="text" id="cardholderName" name="cardholderName" class="form-control"
+                                    value="" placeholder="Cardholder Name" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="cvc_number">CVC</label>
+                                <input type="text" id="cvc_number" name="cvc" class="form-control" value=""
+                                    placeholder="CVC" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="expirationDate">Expiry</label>
+                                <input type="date" id="expirationDate" name="expirationDate" class="form-control"
+                                    value="" required>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="total-price">
+                                <button type="submit" class="btn ml-5">Donate Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="main-sidebar">
+            <div class="don-right">
+                <h3 class="don-title">Recent Causes</h3>
+                <div class="don-list">
+                    <ul>
+                        <li>
+                            <div class="don-image1">
+                                <img src="donate-cause/cause1.jpg" alt="Cause">
+                            </div>
+                            <div class="don-content">
+                                <h3>Clothes For Everyone</h3>
+                                <div class="total">
+                                    <span class="space">Raised : ₹ 37,041</span>
+                                    <b>Goal : ₹ 80,000</b>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="don-image1">
+                                <img src="donate-cause/cause2.jpg" style="width: 111px; border-radius: 4px;"
+                                    alt="Cause">
+                            </div>
+                            <div class="don-content">
+                                <h3>Education For Everyone</h3>
+                                <div class="total">
+                                    <span class="space">Raised : ₹ 57,679</span>
+                                    <b>Goal : ₹ 80,000</b>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="don-image1">
+                                <img src="donate-cause/cause3.jpg" alt="Cause">
+                            </div>
+                            <div class="don-content">
+                                <h3>Food for childen</h3>
+                                <div class="total">
+                                    <span class="space">Raised : ₹ 67,229</span>
+                                    <b>Goal : ₹ 80,000</b>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Donation area end -->
+
+    <!-- footer area start -->
+    <footer class="footer">
+        <div class="foot-container">
+            <div class="foot-row">
+                <div class="foot-icon">
+                    <a href="index.html"> <img src="icons/logo.png" alt="Logo"></a>
+                    <div class="contact">
+                        <div class="widget-title">
+                            <h3 style="padding-top: 14px;">Contact Us</h3>
+                        </div>
+                        <p>Available 24x7 for Enquiries.</p>
+                        <ul class="info">
+                            <li>charite@gmail.com</li>
+                            <li></i>+91 12345 67890</li>
+                            <li></i>170/B, Whitefield, Bengaluru 560001</li>
+                        </ul>
+                    </div>
+                    <div class="foot-social">
+                        <img class="fav-icon foot-soc" src="icons/facebook.svg" alt="">
+                        <img class="fav-icon foot-soc" src="icons/twitter.svg" alt="">
+                        <img class="fav-icon foot-soc" src="icons/instagram.svg" alt="">
+                        <img class="fav-icon foot-soc" src="icons/linkedin.svg" alt="">
+                    </div>
+                </div>
+                <div class="wid">
+                    <div class="widget">
+                        <h5 class="widget-title">About</h5>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li>Donation</li>
+                            <li>About us</li>
+                            <li>Event</li>
+                            <li>Features</li>
+                        </ul>
+                    </div>
+                    <div class="widget">
+                        <h5 class="widget-title">Quick links</h5>
+                        <ul>
+                            <li><a href="causes.html">Causes</a></li>
+                            <li>About</li>
+                            <li>New Campaign</li>
+                            <li>Site map</li>
+                            <li>Stories</li>
+                        </ul>
+                    </div>
+                    <div class="widget">
+                        <h5 class="widget-title">Explore</h5>
+                        <ul>
+                            <li><a href="donate.html">Donate</a></li>
+                            <li>Campaigns</li>
+                            <li>Fundraise</li>
+                            <li>Volunteers</li>
+                            <li>Sponsors</li>
+                        </ul>
+                    </div>
+                    <div class="widget">
+                        <h5 class="widget-title">Photo Gallery</h5>
+                        <img src="images/footer-gallery.png" alt="Photos">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-rights flex">
+                <div class="donate-by">
+                    <span>Donate by :</span>
+                    <img src="images/donate-by.png" alt="Donate By">
+                </div>
+                <div class="copyright">
+                    <p>&copy; Copyright 2023 | Piyush Narayan | All Right Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer area end -->
+
+    <!-- main js  -->
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+section {
+    /* height: 100vh; */
+    background: url(background/bg2.jpg);
+}
+
+section h2{
+    padding-top: 42px;
+    display: flex;
+    font-size: 2.4rem;
+    justify-content: center;
+    font-family: 'Pacifico',cursive;
+    color: #F84D42;;
+}
+
+.cause-box {
+    margin: 55px 40px;
+    padding: 20px;
+    width: 26%;
+    background-color: white;
+    border: 2px solid rgb(144 128 153);
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.cause-box a{
+    text-decoration: none;
+    color: white;
+}
+
+.cause-box h3 a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+}
+
+.cause-box p {
+    line-height: 28px;
+    color: #807b7b;
+    text-align: center;
+}
+
+.cause-box img {
+    width: 23vw;
+    height: 20vw;
+    border-radius: 20px;
+    padding: 5px 8px 5px 5px;
+}
